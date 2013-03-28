@@ -1,0 +1,8 @@
+How to use it:
+
+- Add in 'INSTALLED_APPS' in settings.py
+- Run syncdb
+- Add the following line in your middleware list:
+  server_errors.middleware.ServerErrorMiddleware
+- Make sure that django admin site is enalbed.
+- Set DEBUG = True in settings.py
