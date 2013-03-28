@@ -5,4 +5,4 @@ How to use it:
 - Add the following line in your middleware list:
   server_errors.middleware.ServerErrorMiddleware
 - Make sure that django admin site is enalbed.
-- Set DEBUG = True in settings.py
+- Set DEBUG = False in settings.py
